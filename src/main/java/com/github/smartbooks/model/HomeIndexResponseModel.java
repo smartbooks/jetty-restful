@@ -1,4 +1,4 @@
-package com.ljja.web.model;
+package com.github.smartbooks.model;
 
 public class HomeIndexResponseModel {
     public String UserName = "";

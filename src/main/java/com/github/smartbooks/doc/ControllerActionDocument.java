@@ -1,4 +1,4 @@
-package com.ljja.web.doc;
+package com.github.smartbooks.doc;
 
 import java.util.ArrayList;
 import java.util.List;

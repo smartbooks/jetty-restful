@@ -1,6 +1,6 @@
-package com.ljja.web.model;
+package com.github.smartbooks.model;
 
-import com.ljja.web.core.BaseRequestModel;
+import com.github.smartbooks.core.BaseRequestModel;
 
 public class HomeIndexRequestModel extends BaseRequestModel {
     public String UserName = "";

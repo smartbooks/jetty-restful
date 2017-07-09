@@ -1,8 +1,8 @@
-package com.ljja.web.controller;
+package com.github.smartbooks.controller;
 
-import com.ljja.web.core.BaseController;
-import com.ljja.web.model.HomeIndexRequestModel;
-import com.ljja.web.model.HomeIndexResponseModel;
+import com.github.smartbooks.core.BaseController;
+import com.github.smartbooks.model.HomeIndexRequestModel;
+import com.github.smartbooks.model.HomeIndexResponseModel;
 
 public class HomeController extends BaseController {
 

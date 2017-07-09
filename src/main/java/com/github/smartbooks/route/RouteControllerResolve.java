@@ -1,10 +1,10 @@
-package com.ljja.web.route;
+package com.github.smartbooks.route;
+
+import com.github.smartbooks.core.BaseController;
+import com.github.smartbooks.core.ControllerConfig;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
-
-import com.ljja.web.core.BaseController;
-import com.ljja.web.core.ControllerConfig;
 
 public class RouteControllerResolve {
 
@@ -35,7 +35,7 @@ public class RouteControllerResolve {
 			try {
 				String tempPackagePath = packageItem + item.controllerName + ControllerConfig.defaultControllerSuffix;
 				Class<?> tempControllerClass = ClassLoader.getSystemClassLoader().loadClass(tempPackagePath);
-				if (BaseController.class.isAssignableFrom(tempControllerClass) && 
+				if (BaseController.class.isAssignableFrom(tempControllerClass) &&
 						tempControllerClass.isInterface() == false &&
 						tempControllerClass.isArray() == false &&
 						tempControllerClass.isEnum() == false && 

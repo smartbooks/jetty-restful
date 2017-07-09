@@ -1,10 +1,10 @@
-package com.ljja.web.doc;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.github.smartbooks.doc;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ControllerDocument {
 

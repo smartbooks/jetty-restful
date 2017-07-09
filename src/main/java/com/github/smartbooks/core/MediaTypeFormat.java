@@ -1,4 +1,4 @@
-package com.ljja.web.core;
+package com.github.smartbooks.core;
 
 public abstract class MediaTypeFormat {
 

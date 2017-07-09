@@ -1,7 +1,7 @@
-package com.ljja.web;
+package com.github.smartbooks;
 
-import com.ljja.web.core.ControllerConfig;
-import com.ljja.web.core.RestHandler;
+import com.github.smartbooks.core.ControllerConfig;
+import com.github.smartbooks.core.RestHandler;
 import org.eclipse.jetty.server.Server;
 
 public class App {

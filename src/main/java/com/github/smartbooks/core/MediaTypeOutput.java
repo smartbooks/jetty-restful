@@ -1,4 +1,4 @@
-package com.ljja.web.core;
+package com.github.smartbooks.core;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -25,11 +25,11 @@ public final class MediaTypeOutput {
 	}
 
 	private MediaTypeFormat matchMediaTypeFormatInstance(String contentType) {
-		
+
 		if(null == contentType){
 			contentType = "application/json";
 		}
-		
+
 		switch (contentType) {
 		case "application/json":
 			return new JsonMediaTypeFormat();

@@ -1,11 +1,11 @@
-package com.ljja.web.core;
+package com.github.smartbooks.core;
+
+import com.github.smartbooks.doc.ControllerActionDocument;
+import com.github.smartbooks.doc.ControllerActionParamDocument;
+import com.github.smartbooks.doc.ControllerDocument;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
-
-import com.ljja.web.doc.ControllerActionDocument;
-import com.ljja.web.doc.ControllerActionParamDocument;
-import com.ljja.web.doc.ControllerDocument;
 
 public abstract class BaseController {
 

@@ -1,4 +1,4 @@
-package com.ljja.web.doc;
+package com.github.smartbooks.doc;
 
 public class ControllerActionParamDocument {
 

@@ -1,9 +1,9 @@
-package com.ljja.web.core;
+package com.github.smartbooks.core;
+
+import org.eclipse.jetty.server.Request;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import org.eclipse.jetty.server.Request;
 
 public final class DefaultContext extends BaseContext {
 

@@ -1,20 +1,18 @@
-package com.ljja.web.core;
+package com.github.smartbooks.core;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.lang.reflect.Parameter;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.github.smartbooks.route.RouteControllerItem;
+import com.github.smartbooks.route.RouteControllerResolve;
+import org.eclipse.jetty.server.Request;
+import org.eclipse.jetty.server.handler.AbstractHandler;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import org.eclipse.jetty.server.Request;
-import org.eclipse.jetty.server.handler.AbstractHandler;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ljja.web.route.RouteControllerItem;
-import com.ljja.web.route.RouteControllerResolve;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.lang.reflect.Parameter;
 
 public class RestHandler extends AbstractHandler {
 

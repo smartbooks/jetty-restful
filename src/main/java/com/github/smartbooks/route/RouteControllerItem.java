@@ -1,4 +1,4 @@
-package com.ljja.web.route;
+package com.github.smartbooks.route;
 
 import java.lang.reflect.Method;
 

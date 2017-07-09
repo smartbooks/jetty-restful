@@ -1,4 +1,4 @@
-package com.ljja.web.core;
+package com.github.smartbooks.core;
 
 import java.util.ArrayList;
 import java.util.List;
