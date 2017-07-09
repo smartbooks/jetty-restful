@@ -4,4 +4,5 @@
 # 上传到maven中央仓库
 ```
 https://www.iteblog.com/archives/1807.html
+https://issues.sonatype.org
 ```
