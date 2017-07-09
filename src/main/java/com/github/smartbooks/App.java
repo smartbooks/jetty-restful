@@ -11,11 +11,9 @@ public class App {
      * 请求方式:
      * POST或GET
      *
-     * URL:
-     * http://localhost:8090/Home?action=Index&date=2017-01-01&sex=1
+     * URL:http://localhost:8090/Home?action=Index&date=2017-01-01&sex=1
      *
-     * POST BODY:
-     * {"UserName":"admin","Passowrd":"123456"}
+     * POST BODY: {"UserName":"admin","Passowrd":"123456"}
      *
      * @param args
      * @throws Exception
