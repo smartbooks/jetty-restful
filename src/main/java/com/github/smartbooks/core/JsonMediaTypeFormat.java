@@ -4,17 +4,17 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class JsonMediaTypeFormat extends MediaTypeFormat {
-	
-	public JsonMediaTypeFormat(){
-		contentType = "application/json";
-	}
 
-	@Override
-	public String Render(Object content) throws JsonProcessingException {
+    public JsonMediaTypeFormat() {
+        contentType = "application/json";
+    }
 
-		ObjectMapper mapper = new ObjectMapper();
+    @Override
+    public String Render(Object content) throws JsonProcessingException {
 
-		return mapper.writeValueAsString(content);
-	}
+        ObjectMapper mapper = new ObjectMapper();
+
+        return mapper.writerWithDefaultPrettyPrinter().writeValueAsString(content);
+    }
 
 }

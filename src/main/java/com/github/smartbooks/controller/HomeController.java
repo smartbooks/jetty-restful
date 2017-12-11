@@ -25,7 +25,7 @@ public class HomeController extends BaseController {
             HomeIndexRequestModel model,
             String date) {
 
-        System.out.println("HomeController->Index");
+        //System.out.println("HomeController->Index");
 
         HomeIndexResponseModel rs = new HomeIndexResponseModel();
 
@@ -38,6 +38,6 @@ public class HomeController extends BaseController {
     }
 
     public void hi(int sex1, Integer sex2) {
-        System.out.println("HomeController->hi" + sex1 + sex2);
+        //System.out.println("HomeController->hi" + sex1 + sex2);
     }
 }

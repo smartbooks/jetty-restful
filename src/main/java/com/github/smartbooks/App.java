@@ -24,7 +24,7 @@ public class App {
         Server server = new Server(8090);
 
         //设置扫描的包名
-        ControllerConfig.controllerPackageList.add("com.ljja.web.controller");
+        ControllerConfig.controllerPackageList.add("com.github.smartbooks.controller");
 
         server.setHandler(new RestHandler());
 
